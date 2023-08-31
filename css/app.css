@@ -2,18 +2,26 @@ html {
     font-family: 'Fredoka', sans-serif;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
 }
+
+.float-left {
+    float: left;
+}
+
+/* 
+HEADER
+ */
 
 .main__announcement-title {
     font-size: 38px;
@@ -21,24 +29,25 @@ html {
     color: #E63276;
 }
 
+/* 
+MAIN - CANDIDATE CARDS
+ */
+
 .main__candidates-card {
-    width: calc((100% - 80px) / 3);
+    width: calc((100% - 40px) / 3);
     /* height: 100px; */
     /* border: 1px solid red; */
     margin-right: 20px;
     margin-bottom: 30px;
     background-color: #0E0E17;
+    box-shadow: 5px 5px 5px 5px rgba(34, 34, 34, 0.2);
 }
 
-.float-left {
-    float: left;
-}
-
-/* .main__candidates::after {
+.main__candidates::after {
     content: '';
     display: table;
     clear: both;
-} */
+}
 
 .main__candidates-card:nth-child(3n) {
     margin-right: 0;
@@ -48,17 +57,49 @@ html {
 .candidates__photo img {
     height: 100px;
     float: left;
+    margin-right: 15px;
+}
+
+.candidates__info {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.candidate__name {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.candidate__work {
+    font-size: 13px;
+    color: white;
+}
+
+.candidate__email {
+    font-size: 13px;
+    color: #66B5C6;
+    text-decoration: none;
+}
+
+.candidate__name, .candidate__work {
+    padding-bottom: 5px;
 }
 
 
-
-
 /* 
-FOOTER CONTAINER
+FOOTER
  */
 
- /* .footer-container {
+ .footer-container {
     width: 100%;
-    height: 150px;
+    /* height: 150px; */
     background-color: #222222;
- } */
+ }
+
+ .footer__text {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+ }
