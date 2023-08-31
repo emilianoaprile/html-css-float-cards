@@ -8,9 +8,6 @@ html {
     box-sizing: border-box;
 }
 
-main {
-    max-width: 100%;
-}
 
 .container {
     max-width: 800px;
