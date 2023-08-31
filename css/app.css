@@ -23,24 +23,31 @@ html {
 
 .main__candidates-card {
     width: calc((100% - 80px) / 3);
-    height: 100px;
-    border: 1px solid red;
+    /* height: 100px; */
+    /* border: 1px solid red; */
     margin-right: 20px;
     margin-bottom: 30px;
+    background-color: #0E0E17;
 }
 
 .float-left {
     float: left;
 }
 
-.main__candidates::after {
+/* .main__candidates::after {
     content: '';
     display: table;
     clear: both;
-}
+} */
 
 .main__candidates-card:nth-child(3n) {
     margin-right: 0;
+}
+
+
+.candidates__photo img {
+    height: 100px;
+    float: left;
 }
 
 
