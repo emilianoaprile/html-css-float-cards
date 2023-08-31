@@ -17,3 +17,9 @@ main {
     margin: 0 auto;
     text-align: center;
 }
+
+.main__announcement-title {
+    font-size: 38px;
+    padding: 50px;
+    color: #E63276;
+}
