@@ -23,7 +23,7 @@ html {
 HEADER
  */
 
-.main__announcement-title {
+.header__announcement-title {
     font-size: 38px;
     padding: 50px;
     color: #E63276;
