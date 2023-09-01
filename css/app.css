@@ -49,7 +49,7 @@ MAIN - CANDIDATE CARDS
     box-shadow: 5px 5px 5px 5px rgba(34, 34, 34, 0.2);
 }
 
-.main__candidates::after {
+.clearfix::after {
     content: '';
     display: table;
     clear: both;
@@ -106,10 +106,11 @@ FOOTER
 
  .footer__text {
     color: white;
-    text-align: center;
-    padding-top: 30px;
+    padding: 30px;
+    font-weight: 300;
+    /* padding-top: 30px;
     padding-bottom: 50px;
     padding-left: 20px;
-    padding-right: 20px;
-    font-weight: 300;
- }
+    padding-right: 20px; */
+    /* text-align: center; */
+}
